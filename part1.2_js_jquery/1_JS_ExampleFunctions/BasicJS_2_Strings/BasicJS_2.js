@@ -22,7 +22,7 @@ function myString()
  demo.innerHTML += "<br><img id='myPic'>" ; 
  document.images[ picName ].src = picFile ;
  // EQUATES TO...
- // document.images[ "myPic" ].src="poolballs.png"; 
+ // document.images[ "myPic" ].src="frogjumps.png"; 
 }
 
 //Working with sub strings in JS with string variables
