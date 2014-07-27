@@ -1,5 +1,5 @@
 
 
 function yetiAlert() {
-    alert("Yeti ahoy!");
+    alert("VERORBER!");
 }
