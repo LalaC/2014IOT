@@ -8,10 +8,16 @@ p, h1, h2 {
     color: grey;
 }
 
+
+h3 {
+   font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: black; 
+}
 #panel{
     padding: 5px;
     background-color: #F1F1F1;
-    color: pink;
+    color: black;
     width: 400px;
     box-shadow: 10px 10px 1px #8d8d8d;
 }
@@ -30,12 +36,36 @@ p, h1, h2 {
     box-shadow: 10px 10px 1px #8d8d8d;
 }
 
-#panel3{
+/*#panel3{
     background-color: #F1F1F1;
     width: 400px;
     box-shadow: 10px 10px 1px #8d8d8d;
+}*/
+
+
+#respond1{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: grey;
 }
 
+#confirm1{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: grey;
+}
+
+.bgColor {
+    background-color: #BBBBBB;   
+}
+
+.panel3 {
+    text-align: left;
+    color: black;
+    background-color:red;
+    width: 400px;
+    height: 163px;
+}
 .space {
     background-color: spaceColor;
     width: 600px;

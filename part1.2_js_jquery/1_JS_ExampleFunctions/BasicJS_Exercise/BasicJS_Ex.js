@@ -42,11 +42,11 @@ function keypressResponse( e )
  var keynum = (window.event) ? event.keyCode : e.which;
  
  // this is the condition statment - each test statement just converts the keyCode from a number to the actual letter (re. ASCII)
- if (String.fromCharCode(keynum)== 'A' ) {
+ if (String.fromCharCode(keynum)== 'a' ) {
   myAnswer = "Look at Panel 1.";
- } else if (String.fromCharCode(keynum) == 'B') {
+ } else if (String.fromCharCode(keynum) == 'b') {
   myAnswer = "Look at Panel 2.";
- } else if (String.fromCharCode(keynum) == 'C') {
+ } else if (String.fromCharCode(keynum) == 'c') {
   myAnswer = "Look at Panel 3.";
  } else {
    myAnswer = myAnswer;
@@ -66,5 +66,28 @@ function init()
  document.onkeypress=keypressResponse; 
 
 }
+
 // adding the event listner to the document and looking for "init()" function 
 document.addEventListener( "DOMContentLoaded" , init , false ) ;
+
+
+function myChanging() {
+    document.getElementById(Òrespond1Ó).innerHTML = "Congratulations! You are halfway there!";
+alert("WHOOHOO");
+}
+
+function myConfirm() {
+
+    var x;
+    if (confirm("Press a button!") == true) {
+        x = "Yay you're OK!";
+    } else {
+        x = "Cancelling your studies is a bad idea!";
+    }
+
+    document.getElementById(Òconfirm1").innerHTML = x;
+}
+
+function bgChange1(bg) {
+    document.body.style.background = bg;
+}
