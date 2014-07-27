@@ -15,7 +15,7 @@
       do the other thing;
     }
   
-* Or me can have two (or more) test cases with seperate but related outcomes. By related I mean they should be looking at the same variable.
+* Or e can have two (or more) test cases with seperate but related outcomes. By related I mean they should be looking at the same variable.
 * if(testing case is true){
       do the right thing;
     } else if (seconf testing case is true){
@@ -41,13 +41,13 @@ function keypressResponse( e )
  // this variable sets "keynum" to the keycode on the keyboard
  var keynum = (window.event) ? event.keyCode : e.which;
  
- // this is the condition statment - each test statment jsut converst the keyCode from a number to the actual letter (re. ASCII)
- if (String.fromCharCode(keynum) == 'A' ) {
-  myAnswer = "Well aren't you a smarty pants."
+ // this is the condition statment - each test statement just converts the keyCode from a number to the actual letter (re. ASCII)
+ if (String.fromCharCode(keynum)== 'A' ) {
+  myAnswer = "Look at Panel 1.";
  } else if (String.fromCharCode(keynum) == 'B') {
-  myAnswer = "Thought so..."
+  myAnswer = "Look at Panel 2.";
  } else if (String.fromCharCode(keynum) == 'C') {
-  myAnswer = "Ever heard of try harder?"
+  myAnswer = "Look at Panel 3.";
  } else {
    myAnswer = myAnswer;
  }
@@ -59,7 +59,7 @@ function keypressResponse( e )
 function init()
 {
  panel=document.getElementById("panel");
- panel.innerHTML="Are you getting an A, B or C in this course?" ;
+ panel.innerHTML="What was your mark for the exam, A, B or C?" ;
  
  // calls the two keypress functions I wrote, when the "document" recieves a "onkeydown or onkeypress" event notificaiton.
  document.onkeydown=keydownResponse; 
