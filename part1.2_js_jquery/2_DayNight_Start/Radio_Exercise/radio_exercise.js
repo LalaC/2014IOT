@@ -1,7 +1,7 @@
-//alert("here"); //testing
+alert("here"); //testing
 
 
- $( document ).ready( function() {
+/*$( document ).ready( function() {
     
     $('#orb').click(function() {
         
@@ -15,3 +15,5 @@
     
     });
 });
+*/
+

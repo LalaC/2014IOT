@@ -1,4 +1,4 @@
-.black {
+/*.black {
     background-color: black;
 }
 
@@ -8,7 +8,7 @@
 
 .sun {
     border: 10px solid #f1c40f;
-    background-color: #ffdd00;
+    background-color: #ffdd00; 
 }
 
 .moon {
@@ -47,3 +47,13 @@
     position: absolute;
     
 }
+*/
+
+
+
+#radiobox {
+    background-color: tan;
+    height: 300px;
+    width: 600px;
+    margin-left: 250px;
+    
