@@ -1,5 +1,25 @@
+body, html {
+    background-color: black;
+}
 
 
+.box {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left; 
+}
+
+#instrument {
+    height: 116px;
+    width: 812px;
+    padding-right: 10px;
+    padding-top: 50px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
 
 #a {
     background-color: #331f35;
@@ -16,15 +36,45 @@
     border: 3px solid #db1d2d;
 }
 
+#c:hover {
+    background-color: #661920;
+    cursor: pointer;
+}
+
+#c:active {
+    background-color: #db1d2d;;
+}
+
+
 #d {
     background-color: #422018;
     border: 3px solid #f0421c;
 }
 
+#d:hover {
+    background-color: #661920;
+    cursor: pointer;
+}
+
+#d:active {
+    background-color: #db1d2d;;
+}
+
+
 #e {
     background-color: #45391b;
     border: 3px solid #fec02d;
 }
+
+#e:hover {
+    background-color: #661920;
+    cursor: pointer;
+}
+
+#e:active {
+    background-color: #db1d2d;;
+}
+
 
 #f {
     background-color: #193c29;
