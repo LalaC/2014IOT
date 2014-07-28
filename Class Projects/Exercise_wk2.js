@@ -9,6 +9,7 @@ $(document).ready(function(){
     rTrack.currentTime= 0;
     rTrack.play();
    });
+   alert("debug");
    
      $('#rightknob').mousedown(function() {
     bTrack.currentTime= 0;
@@ -17,7 +18,9 @@ $(document).ready(function(){
    
 });
 
- $( document ).ready( function() {
+/*NOT WORKING
+ *
+ * $( document ).ready( function() {
     
     $('#leftknob').click(function() {
         
@@ -29,3 +32,6 @@ $(document).ready(function(){
     
     });
 });
+
+*/
+
