@@ -1,3 +1,7 @@
+bobody, html {
+    background-color: black;
+}
+
 #radiobox {
     height: 300px;
     width: 540px;
@@ -26,7 +30,6 @@
     float: left;
 }
 
-
 #leftknob {
     height:100px;
     width:100px;
@@ -38,6 +41,33 @@
     margin-right: 5px;
     float: left;
 }
+
+/* NOT WORKING
+.leftknobon {
+    height:100px;
+    width:100px;
+    background-color: red;
+    border-radius:100%;
+    border: 5px solid #f1c40f;
+    margin-top: 100px;
+    margin-left: 45px;
+    margin-right: 5px;
+    float: left;
+}
+
+.leftknobof {
+    height:100px;
+    width:100px;
+    background-color: blue;
+    border-radius:100%;
+    border: 5px solid #f1c40f;
+    margin-top: 100px;
+    margin-left: 45px;
+    margin-right: 5px;
+    float: left;
+}
+
+*/
 
 #leftknob:hover {
     background-color: grey;
@@ -66,6 +96,16 @@
 
 #rightknob:active {
     background-color: white;
+}
+
+#instrument {
+    height: 116px;
+    width: 812px;
+    padding-right: 10px;
+    padding-top: 50px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
 }
 
 p {
