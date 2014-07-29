@@ -1,37 +1,27 @@
-alert("debug");
 
 $(document).ready(function(){
    var rTrack = document.getElementById('rAudio');
    var bTrack = document.getElementById('bAudio');
    
    
-   $('#leftknob').mousedown(function() {
+   $('#leftknob').click(function() {
+      console.log("clicky")
     rTrack.currentTime= 0;
     rTrack.play();
+    bTrack.pause();
+    $('#trackname').html("track 1")
    });
-   alert("debug");
    
-     $('#rightknob').mousedown(function() {
+   
+   
+   $('#rightknob').mousedown(function() {
+    console.log("clicky")
+    rTrack.pause();
     bTrack.currentTime= 0;
     bTrack.play();
+    $('#trackname').html("track 2")
    });
    
 });
 
-/*NOT WORKING
- *
- * $( document ).ready( function() {
-    
-    $('#leftknob').click(function() {
-        
-        if ($(this).hasClass('leftknobon')) {
-            $(this).removeClass('leftknobon').addClass('leftknobof');
-        } else {
-            $(this).removeClass('leftknobof').addClass('leftknobon');
-        }
-    
-    });
-});
-
-*/
 
