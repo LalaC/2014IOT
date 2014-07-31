@@ -9,7 +9,7 @@ $(document).ready(function(){
     rTrack.currentTime= 0;
     rTrack.play();
     bTrack.pause();
-    $('#trackname').html("track 1")
+    $('#trackname').html("Track 1")
    });
    
    
@@ -19,7 +19,7 @@ $(document).ready(function(){
     rTrack.pause();
     bTrack.currentTime= 0;
     bTrack.play();
-    $('#trackname').html("track 2")
+    $('#trackname').html("Track 2")
    });
    
 });

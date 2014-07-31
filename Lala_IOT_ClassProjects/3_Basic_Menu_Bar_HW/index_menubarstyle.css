@@ -1,0 +1,133 @@
+/*background color for whole page*/
+html body {
+    background-color:#D1FFFF;
+}
+
+
+.arialfont {
+    font-family: Arial
+}
+
+/*IDs for invisible divs that will hold the page together*/
+
+.left_blocks, .right_blocks {
+	list-style:none;
+	display: inline-block;
+	margin-left: 10px;
+	margin-top:10px
+}
+
+#mainpage{
+    height: 100%; 
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #F5F0EB;
+    padding: 10px;
+}
+
+#header{
+    width: 340px;
+    height: 340px;
+    display: inline-block;
+    margin-left: 230px;
+    margin-top: 10px;
+    background-color:#D6D6FF;
+    -moz-border-radius: 170px;
+    -webkit-border-radius: 170px;
+    border-radius: 170px;
+    box-shadow: 5px 5px 2px #BCA48F;
+  
+}
+
+#circle {
+	width: 340px;
+	height: 340px;
+        display:inline-block;
+        margin-left: 230px;
+        margin-top: 30px;
+	background: #C2FFEB;
+	-moz-border-radius: 170px;
+	-webkit-border-radius: 170px;
+	border-radius: 170px;
+}
+
+#menu{
+    height: 80px; 
+    width: 800px;
+    margin-bottom: 15px;
+    border-radius: 50px;
+    background-color: 		#CCF5FF;
+}
+
+#content{
+    height: 400px;
+    width: 800px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+}
+
+/*text styles and external fonts*/
+#header_text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    margin-left: 20px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    font-variant:small-caps;
+    font-weigth:bold;
+    text-align:center;
+    color: white;
+}
+
+/*CLASS*/
+
+
+.tagline {
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant:small-caps;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-size: 30px
+    
+}
+
+.tab{
+    height: 20px; 
+    width: 100px;
+    background-color:#FFB2B2;
+    border-radius: 80px;
+    display: inline-block;
+    margin-left: 53px;
+    margin-top: 15px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+    -webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    transition: 0.25;
+}
+
+.tab:hover{
+    opacity: 0.60;
+}
+
+.tab_text{
+    display: inline-block;
+    font-family: arial;
+    font-size: 20px;
+    color:#FFFFFF;
+    text-align: center;
+}
+
+a:link, a:visited {
+    color: white;
+    text-decoration:none;
+}
+
+
+.tab_text a:hover {
+	color: grey;	
+}
+/*classes for text styles in the content area*/
