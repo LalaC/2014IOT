@@ -1,0 +1,98 @@
+body, html {
+    background-color: black;
+    font-family: Arial, sans-serif;
+}
+
+p, h1, h2 {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: grey;
+}
+
+
+h3 {
+   font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: black; 
+}
+
+
+#panels{
+    margin-left: 300px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+#panel{
+    padding: 5px;
+    background-color: #F1F1F1;
+    color: black;
+    width: 400px;
+    box-shadow: 10px 10px 1px #8d8d8d;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+
+#panel1{
+    background-color: #F1F1F1;;
+    width: 400px;
+    box-shadow: 10px 10px 1px #8d8d8d;
+    text-align: center;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#panel2{
+    background-color: #F1F1F1;
+    width: 400px;
+    box-shadow: 10px 10px 1px #8d8d8d;
+    text-align: center;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+
+#respond1{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: grey;
+}
+
+#confirm1{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: grey;
+}
+
+.bgColor {
+    background-color: #BBBBBB;   
+}
+
+.panel3 {
+    background-color: #F1F1F1;;
+    width: 400px;
+    box-shadow: 10px 10px 1px #8d8d8d;
+    text-align: center;
+    border-radius: 20px;
+    color: black;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.space {
+    background-color: spaceColor;
+    width: 600px;
+    height: 20px;
+}

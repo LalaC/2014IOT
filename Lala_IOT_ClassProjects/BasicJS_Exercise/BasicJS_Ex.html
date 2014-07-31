@@ -1,0 +1,52 @@
+<!-- Javascript Basics, Week 7, exercise in Javascript and conditional statements -->
+
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Handling Click & Key Events</title>
+    <link rel="stylesheet" type="text/css" href="BasicJS_Ex.css">
+    <script language="javascript" type="text/javascript" src="BasicJS_Ex.js"></script>
+</head>
+
+<body>
+    
+<div id="panels">
+        <div id="panel"><h3>Please type wether you got an A, B or C</h3>
+        </div>
+            <div class="space"></div>
+            
+    <div id="panel1"><h2>Panel 1</h2>
+        <h3>So you're an A student</h3>
+        <p id="demo1">That means you can click on this button below.</p>
+        <button type="button" onclick="myChanging()">BUTTON</button>
+        
+        </div> 
+     
+    <div class="space"></div>
+    
+    <div id="panel2"><h2>Panel 2</h2>
+     <h3>So you're a B student</h3>
+        <p id="confirm1" >Well you have 2 choices</p>
+        <button type="button" onclick="myConfirm()">What are they?</button>
+        </div>
+
+        <div class="space"></div>
+
+   <div class="panel3 bgColor"
+        onmouseover="bgChange1('red')" 
+        onmouseout="bgChange1('transparent')"
+    <div id="panel3"><h2>Panel 3</h2>
+  
+    <h3>So you're a C student</h3>
+    <p>You party too hard, stop the disco!</p>
+    
+    </div>
+
+</div>
+
+</body>
+
+</html>
